@@ -371,7 +371,7 @@ class Flock(VGroup):
 class GeneralFlockScene(ZoomedScene):
     CONFIG = {
         #the default value of random seed is zero. So if we do not change this, we will
-        #get the same scene over and over again for every run! We need this for the explanation scenes.
+        #get the same scene over and over again for every run! We need this for the explanation scenes, but not here!
         "random_seed" : None, 
         "runtime" : 10,
         "obstacle_list" : [],
